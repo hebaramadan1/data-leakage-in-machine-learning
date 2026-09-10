@@ -1,4 +1,5 @@
 # How to Detect and Prevent Data Leakage in Machine Learning
+ https://medium.com/@HebaRamadan./how-to-detect-and-prevent-data-leakage-in-machine-learning-a-practical-guide-to-building-reliable-ml-ba75c3a8c2dd
 
 > A practical, research-oriented guide to understanding, detecting, and preventing Data Leakage in Machine Learning.
 
