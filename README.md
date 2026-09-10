@@ -29,6 +29,13 @@ This work focuses on understanding:
 
 The main focus of this work is **reliable Machine Learning evaluation**. Rather than focusing solely on achieving high performance metrics, this study emphasizes building models using a sound methodology where evaluation results accurately represent expected performance on unseen data.
 
+Particular attention is given to:
+* Data Splitting & Train-Test Contamination
+* Target Leakage
+* Preprocessing & Feature Engineering
+* Model Training & Evaluation
+* Proper use of Scikit-learn Pipelines
+
 ---
 
 ## 💻 Practical Examples
@@ -40,6 +47,30 @@ The implementation primarily utilizes:
 * **Pandas**
 * **NumPy**
 * **Scikit-learn**
+
+---
+
+## 🧠 Key Topics
+
+| Topic | Description |
+| :--- | :--- |
+| **1. Data Leakage** | Understanding what Data Leakage means and why it creates overly optimistic models. |
+| **2. Target Leakage** | Situations where information directly or indirectly related to the target variable leaks during training. |
+| **3. Train-Test Contamination** | How test set information can unintentionally influence the training process. |
+| **4. Data Preprocessing** | Performing scaling, encoding, and imputation without allowing test set information to leak. |
+| **5. Feature Engineering** | Designing feature creation to avoid using information unavailable at prediction time. |
+| **6. Model Evaluation** | Establishing a strict separation between training and unseen data for reliable evaluation. |
+| **7. Scikit-learn Pipelines** | Organizing preprocessing and modeling steps to systematically eliminate leakage risk. |
+
+---
+
+## 🛠️ Technologies Used
+
+* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) **Python**
+* ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) **Pandas**
+* ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) **NumPy**
+* ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) **Scikit-learn**
+* ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) **Jupyter Notebook**
 
 ---
 
